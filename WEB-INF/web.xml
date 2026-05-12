@@ -1,0 +1,18 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>InsuranceServlet</servlet-name>
+
+        <servlet-class>
+            com.dental.InsuranceServlet
+        </servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>InsuranceServlet</servlet-name>
+
+        <url-pattern>/insurance</url-pattern>
+    </servlet-mapping>
+
+</web-app>
