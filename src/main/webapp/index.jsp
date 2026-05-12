@@ -1,4 +1,4 @@
-<html>
+i<html>
 <head>
 <title>Dental Insurance</title>
 </head>
@@ -14,10 +14,25 @@ Patient Name:
 
 <br><br>
 
+
+Patient age:
+<input type="text" name="number">
+
+<br><br>
+
+
 Treatment Cost:
 <input type="text" name="amount">
 
 <br><br>
+
+Treatment package:
+<input type="text" name="name">
+
+<br><br>
+
+
+
 
 <input type="submit" value="Check Insurance">
 
